@@ -8,7 +8,7 @@ public class MyClass {
   public int multiplyExc(int x, int y) {
     // the following is just an example
     if (x > 999) {
-      throw new IllegalArgumentException("X should be less than 1000");
+      throw new IllegalArgumentException("X should be less than : 1000");
     }
     return x / y;
   }
